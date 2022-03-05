@@ -53,7 +53,6 @@ ul li::before
     transform: translate(-50%,-50%);
     width: 100vw;
     height: 100vh;
-    background: #f00;
     z-index: -1;
     display: flex;
     justify-content: center;
@@ -72,15 +71,15 @@ ul li:hover::before
     opacity: 1;
     letter-spacing: 10px;
 }
-ul li:nth-child(1):before
+ul li:nth-child(2):before
 {
     background: linear-gradient(#ff9a33,0%,#ff9a33,33%,#fff 33%,#fff 66%,#138807 66%,#138807 100%);
 }
-ul li:nth-child(2):before
+ul li:nth-child(3):before
 {
     background: linear-gradient(#005bbc,0%,#005bbc,50%,#ffd600 50%,#ffd600 100%);
 }
-ul li:nth-child(3):before
+ul li:nth-child(4):before
 {
     background: linear-gradient(#fff,0%,#fff,33%,#0039a6 33%,#0039a6 66%,#d52b1e 66%,#d52b1e 100%);
 }
